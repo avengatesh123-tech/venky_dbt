@@ -112,3 +112,18 @@ dbt snapshot
 
 # Run tests
 dbt test
+
+Key Features
+
+Incremental Loading – Only new/updated rows processed
+
+Custom Macros & Jinja – Reusable SQL logic (e.g., tag(), multiply())
+
+Snapshots (SCD Type 2) – Track historical changes in hosts, listings, bookings
+
+Ephemeral Models – Temporary tables for intermediate transformations
+
+Data Quality Tests – Not null, unique, and referential integrity
+
+Medallion Architecture – Bronze → Silver → Gold
+
